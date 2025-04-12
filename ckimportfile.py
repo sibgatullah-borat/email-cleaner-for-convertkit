@@ -2,8 +2,8 @@ import pandas as pd
 import re
 
 # File paths
-input_file = "./pxNnaw-ZQISM0G2-wkxF_g.csv"
-output_file = "./convertkit_ready_v3.csv"
+input_file = "./inputfile.csv" #rewrite this with exact path direction so that panda can read it
+output_file = "./convertkit_outputfile.csv"
 
 # Read the CSV file
 df = pd.read_csv(input_file)
